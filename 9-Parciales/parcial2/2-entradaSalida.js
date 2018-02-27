@@ -5,7 +5,7 @@ function Mostrar()
 	importe=parseInt(importe);
 	porcentaje=importe*25/100;
 	importeFinal=importe+porcentaje;
-	alert("El Importe Final es "+importeFinal);
+	
 	document.getElementById("importe").value=importeFinal;
 	
 }
