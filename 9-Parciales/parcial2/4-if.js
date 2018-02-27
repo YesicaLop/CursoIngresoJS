@@ -9,8 +9,7 @@ function Mostrar()
 	if(nroUno==nroDos){
 		mult=nroUno*nroDos;
 		document.write("La multiplicación de los nros iguales es: "+mult);
-	}
-	if(nroUno>nroDos){
+	}else if(nroUno>nroDos){
 		resta=nroUno-nroDos;
 		document.write("El resultado de la resta es: "+resta);
 	}else
